@@ -1,0 +1,23 @@
+﻿-- Insert vocabulary (representative sample - full data in src/data/vocabulary-data.ts)
+INSERT INTO vocabulary (id, german, article, plural, ipa, english, persian, example_sentence_de, example_sentence_en, example_sentence_fa, difficulty, level, tags, frequency) VALUES
+('v-a0-001', 'Hallo', 'die', '-', '/haˈloː/', 'hello', 'سلام', 'Hallo, wie geht es dir?', 'Hello, how are you?', 'سلام، حال تو چطوره؟', 'beginner', 'A0', '{greeting}', 100),
+('v-a0-002', 'Tschüss', 'die', '-', '/tʃʏs/', 'bye', 'خداحافظ', 'Tschüss, bis morgen!', 'Bye, see you tomorrow!', 'خداحافظ، تا فردا!', 'beginner', 'A0', '{greeting}', 95),
+('v-a0-003', 'Guten Morgen', 'der', '-', '/ˈɡuːtən ˈmɔʁɡən/', 'good morning', 'صبح بخیر', 'Guten Morgen, mein Freund!', 'Good morning, my friend!', 'صبح بخیر دوست من!', 'beginner', 'A0', '{greeting}', 90),
+('v-a0-004', 'Danke', 'die', '-', '/ˈdaŋkə/', 'thank you', 'متشکرم', 'Danke für deine Hilfe!', 'Thank you for your help!', 'متشکرم برای کمک تو!', 'beginner', 'A0', '{greeting}', 100),
+('v-a0-005', 'Bitte', 'die', '-', '/ˈbɪtə/', 'please', 'لطفاً', 'Bitte sehr!', 'You are welcome!', 'خواهش می‌کنم!', 'beginner', 'A0', '{greeting}', 100),
+('v-a0-006', 'Ja', 'die', '-', '/jaː/', 'yes', 'بله', 'Ja, ich komme.', 'Yes, I am coming.', 'بله، من می‌آیم.', 'beginner', 'A0', '{basic}', 100),
+('v-a0-007', 'Nein', 'die', '-', '/naɪn/', 'no', 'خیر', 'Nein, danke.', 'No, thank you.', 'خیر، متشکرم.', 'beginner', 'A0', '{basic}', 100),
+('v-a0-008', 'Ich', 'der', '-', '/ɪç/', 'I', 'من', 'Ich bin hier.', 'I am here.', 'من اینجا هستم.', 'beginner', 'A0', '{pronoun}', 100),
+('v-a0-009', 'Du', 'der', '-', '/duː/', 'you (informal)', 'تو', 'Du bist nett.', 'You are nice.', 'تو مهربانی.', 'beginner', 'A0', '{pronoun}', 100),
+('v-a0-010', 'Eins', 'die', '-', '/aɪns/', 'one', 'یک', 'Ich habe eins.', 'I have one.', 'من یکی دارم.', 'beginner', 'A0', '{number}', 100),
+('v-a0-011', 'Zwei', 'die', '-', '/tsvaɪ/', 'two', 'دو', 'Wir sind zwei.', 'We are two.', 'ما دو نفر هستیم.', 'beginner', 'A0', '{number}', 100),
+('v-a1-001', 'der Tisch', 'der', 'Tische', '/deːɐ tɪʃ/', 'table', 'میز', 'Der Tisch ist aus Holz.', 'The table is made of wood.', 'میز از چوب ساخته شده است.', 'beginner', 'A1', '{furniture}', 90),
+('v-a1-002', 'die Schule', 'die', 'Schulen', '/diː ˈʃuːlə/', 'school', 'مدرسه', 'Die Schule beginnt um acht Uhr.', 'School starts at eight.', 'مدرسه ساعت هشت شروع می‌شود.', 'beginner', 'A1', '{place}', 95),
+('v-a1-003', 'das Buch', 'das', 'Bücher', '/das buːx/', 'book', 'کتاب', 'Das Buch ist interessant.', 'The book is interesting.', 'کتاب جالب است.', 'beginner', 'A1', '{education}', 90),
+('v-a1-004', 'die Familie', 'die', 'Familien', '/diː faˈmiːliə/', 'family', 'خانواده', 'Meine Familie ist groß.', 'My family is big.', 'خانواده من بزرگ است.', 'beginner', 'A1', '{family}', 95),
+('v-a1-005', 'der Vater', 'der', 'Väter', '/deːɐ ˈfaːtɐ/', 'father', 'پدر', 'Mein Vater arbeitet viel.', 'My father works a lot.', 'پدر من زیاد کار می‌کند.', 'beginner', 'A1', '{family}', 90),
+('v-a1-006', 'die Mutter', 'die', 'Mütter', '/diː ˈmʊtɐ/', 'mother', 'مادر', 'Meine Mutter kocht gut.', 'My mother cooks well.', 'مادر من خوب آشپزی می‌کند.', 'beginner', 'A1', '{family}', 90),
+('v-a1-007', 'der Bruder', 'der', 'Brüder', '/deːɐ ˈbʁuːdɐ/', 'brother', 'برادر', 'Mein Bruder ist älter.', 'My brother is older.', 'برادرم بزرگتر است.', 'beginner', 'A1', '{family}', 85),
+('v-a1-008', 'das Haus', 'das', 'Häuser', '/haʊs/', 'house', 'خانه', 'Wir wohnen in einem Haus.', 'We live in a house.', 'ما در یک خانه زندگی می‌کنیم.', 'beginner', 'A1', '{place}', 90),
+('v-a1-009', 'das Auto', 'das', 'Autos', '/ˈaʊtoː/', 'car', 'ماشین', 'Das Auto fährt schnell.', 'The car drives fast.', 'ماشین سریع می‌رود.', 'beginner', 'A1', '{transport}', 90),
+('v-a1-010', 'das Wasser', 'das', '-', '/ˈvasɐ/', 'water', 'آب', 'Das Wasser ist kalt.', 'The water is cold.', 'آب سرد است.', 'beginner', 'A1', '{food}', 95);

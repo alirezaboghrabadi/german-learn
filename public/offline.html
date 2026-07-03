@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - GermanLearn</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+    }
+    .icon {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 28px; margin-bottom: 10px; }
+    p { font-size: 16px; opacity: 0.9; margin-bottom: 30px; line-height: 1.5; }
+    .btn {
+      display: inline-block;
+      padding: 12px 32px;
+      background: rgba(255,255,255,0.2);
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.3);
+      transition: background 0.3s;
+    }
+    .btn:hover { background: rgba(255,255,255,0.3); }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 30px;
+    }
+    .feature {
+      padding: 15px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+    }
+    .feature-icon { font-size: 24px; margin-bottom: 5px; }
+    .feature-label { font-size: 12px; opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">📶</div>
+    <h1>You're Offline</h1>
+    <p>Don't worry! You can still review your vocabulary, access completed lessons, and practice with cached content.</p>
+    <a href="/dashboard" class="btn">Go to Dashboard</a>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">📚</div>
+        <div class="feature-label">Review Vocabulary</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">✅</div>
+        <div class="feature-label">Completed Lessons</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-label">Achievements</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📊</div>
+        <div class="feature-label">Progress Stats</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
